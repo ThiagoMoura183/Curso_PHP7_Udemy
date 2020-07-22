@@ -34,7 +34,7 @@
                         <li><a href="exercicio.php?dir=Basico&file=desafio">Desafio</a></li>
                     </ul>
                 </div>
-                <!-- <div class="modulo vermelho">
+                <!- <div class="modulo vermelho">
                     <h3>Módulo 02</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
