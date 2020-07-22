@@ -1,0 +1,137 @@
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "cabecalho" "principal" "rodape";
+}
+
+.cabecalho {
+    grid-area: cabecalho;
+    background-color: #1867c0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.75);
+}
+
+.cabecalho > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.cabecalho > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(100vh - 180px);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.conteudo {
+    position: relative;
+    height: 100%;
+    overflow: scroll; /* Põe scroll apenas na área do conteudo, caso ultrapasse o limite */
+    background-color: white;
+    padding: 20px; /* Não deixa o conteudo de dentro ficar grudado na box */
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2 green, blue, alpha);
+}
+
+.rodape {
+    grid-area: rodape;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    color: #444444;
+    font-weight: bold;
+    /*position: sticky;*/ /* Isso deixaria o rodape fixo embaixo */
+}
+
+.modulos {
+    display: flex; /* Faz com que todos fiquem na mesma linha */
+    flex-wrap: wrap;
+    justify-content: space-around; /* Espaço entre cada um dos elementos */
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Encurvar bordas */
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c0;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none; /* Tira as bolinhas da lista */
+}
+
+.modulo > ul > li {
+    padding: 5px;
+    font-size: 1.15rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none; /* Tira sublinhando dos elementos */
+    color: #222222;
+}
+
+.modulo > ul > li:hover {
+    background-color: #EEEEEE;
+}
+
+.modulo.verde { border: 2px solid #4CAF50;}
+.modulo.verde > h3 { background-color: #4CAF50;}
+
+.modulo.vermelho { border: 2px solid red;}
+.modulo.vermelho > h3 { background-color: red;}
+
+.modulo.azul { border: 2px solid blue;}
+.modulo.azul > h3 { background-color: blue;}
+
+.modulo.violeta { border: 2px solid rgb(238, 94, 238);}
+.modulo.violeta > h3 { background-color: rgb(238, 94, 238);}
+
+.modulo.laranja { border: 2px solid orange;}
+.modulo.laranja > h3 { background-color: orange;}
+
+.modulo.amarelo { border: 2px solid gold;}
+.modulo.amarelo > h3 { background-color: gold;}
+
+.modulo.marrom { border: 2px solid brown;}
+.modulo.marrom > h3 { background-color: brown;}
+
+.modulo.azul-claro { border: 2px solid #2196F3;}
+.modulo.azul-claro > h3 { background-color: #2196F3;}
+
+.modulo.roxo { border: 2px solid #9C27B0;}
+.modulo.roxo > h3 { background-color: #9C27B0;}
