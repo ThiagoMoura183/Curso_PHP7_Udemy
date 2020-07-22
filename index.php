@@ -34,23 +34,40 @@
                         <li><a href="exercicio.php?dir=Basico&file=desafio">Desafio</a></li>
                     </ul>
                 </div>
-                <!- <div class="modulo vermelho">
-                    <h3>Módulo 02</h3>
+                 <div class="modulo vermelho">
+                    <h3>Módulo 02 - Tipos</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=Tipos&file=int">Tipo Inteiro</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=float">Tipo Float</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=aritmeticas">Op. Aritméticas</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=desafio_precedencia">Desafio Precedência</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=string">Tipo String</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=desafio_string">Desafio String</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=booleano">Tipo Booleano</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Tipos&file=conversoes">Conversões</a></li>
                     </ul>
                 </div>
                 <div class="modulo azul">
-                    <h3>Módulo 03</h3>
+                    <h3>Módulo 03 - Variáveis</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=Variaveis&file=basico">Variáveis</a></li>
                     </ul>
                 </div>
-                <div class="modulo violeta">
+               <!-- <div class="modulo violeta">
                     <h3>Módulo 04</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>

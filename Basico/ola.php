@@ -2,7 +2,8 @@
 
 <h2>Exemplo A</h2>
 
-<?php 
+<?php
+    $achoque = "parei errado";
     echo 'Olá ';
     echo 'Mundo!' /* Na última sentença do código PHP, não necessariamente precisa fechar com o ponto e vírgula.*/
 ?>
