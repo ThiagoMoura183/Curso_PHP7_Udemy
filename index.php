@@ -66,6 +66,12 @@
                     <ul>
                         <li><a href="exercicio.php?dir=Variaveis&file=basico">Variáveis</a></li>
                     </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Variaveis&file=desafio_equacao">Desafio Equação</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Variaveis&file=atribuicoes">Atribuições</a></li>
+                    </ul>
                 </div>
                <!-- <div class="modulo violeta">
                     <h3>Módulo 04</h3>
